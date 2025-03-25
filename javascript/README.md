@@ -28,3 +28,13 @@
 - Errores comunes
 - `try`/`catch`
 
+--- 
+## Algunas definiciones
+### ¿Cómo correr un programa de Javascript?
+Javascript era sólo para los browsers, pero se puede ejecutar con `Node.js` que es como un emulador para la terminal.
+
+### ¿Cuál es la diferencia entre `node`, `npm` y `nvm`?
+- `Node.js` -> sirve para ejecutar el código fuera del navegador
+- `npm` -> Node package manager -> permite actualizar, instalar librerias
+- `nvm` -> Node versin manager -> permite gestionar multiples versiones de node -> util para distintos proyectos con distintas versiones
+
