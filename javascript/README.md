@@ -5,6 +5,9 @@
 - Tutorial de cero: https://javascript.info/
 - Cheat Sheets: https://htmlcheatsheet.com/js/
 
+## Ejercicios Online
+- https://exercism.org/tracks/javascript/exercises
+- https://www.geeksforgeeks.org/practice-javascript-online/
 
 ## Temas y Plan de estudio
 ### Básico
