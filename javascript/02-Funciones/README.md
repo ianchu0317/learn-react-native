@@ -32,4 +32,7 @@ console.log(validarMAC("00:1A:2B:3C:4D:5E"));
 ---
 ## Apuntes
 
+### Arrow Functions
+- Son utilizados como funciones para utilizar una sola vez, 
+- similar al lambda en Python
 
