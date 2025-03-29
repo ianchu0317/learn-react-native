@@ -26,4 +26,7 @@ Combina los arrays array1 = [1, 2] y array2 = [3, 4] en uno solo.
 - otra forma convencional es `array.push(element)`
 - Para concatenar arrays: `arr1.concat(arr2)`
 - Para ver longitud `arr.lenght`
+- Para ir en bucle `for (var in object){}` -> Ojo que solo lista los index de los objetos
+- `array.map((param) => param operation)` devuelve nuevo array con los index modificados -> es como una mini funcion for.
+ 
 
