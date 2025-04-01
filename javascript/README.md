@@ -5,6 +5,10 @@
 - Tutorial de cero: https://javascript.info/
 - Cheat Sheets: https://htmlcheatsheet.com/js/
 
+## APIs
+- https://httpstat.us/
+- https://bored-api.appbrewery.com/
+
 ## Ejercicios Online
 - https://exercism.org/tracks/javascript/exercises
 - https://www.geeksforgeeks.org/practice-javascript-online/
