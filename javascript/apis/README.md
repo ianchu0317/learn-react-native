@@ -26,6 +26,7 @@ Retorna un objeto con
   esExitoso: true 
 }
 ```
+**Chequear y practicar sincronización de código; cuándo utilizar promise y que la función no devuelva promise, sino el data**
 
 ### Ejercicio 03
 API: Bored API
@@ -84,13 +85,18 @@ Retorna un objeto con los resultados:
 - promise.catch (callback func) -> atrapa los errores
 
 sintaxis general axios
+```js
+axios.get(url)
+    .then(callback)
+    .catch( (error) => {})
+    .finally();
 ```
-```
+
 sintaxis general fetch y axios dentro de async
 ```js
 async function myFunc(){
     try{
-        const resp = axios.get(url);
+        const resp = await axios.get(url);
     }    
    catch(error){
     console.log(error);
@@ -98,3 +104,5 @@ async function myFunc(){
     } 
 }
 ```
+### Console error
+- error en consola en vez de `console.log()` utilizar `console.error`
