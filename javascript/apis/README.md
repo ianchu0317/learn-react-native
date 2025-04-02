@@ -79,4 +79,22 @@ Retorna un objeto con los resultados:
 
 
 ## Apuntes
--
+- axios.get devuelve una promise
+- promise.then (callback func) -> resuelve la promise
+- promise.catch (callback func) -> atrapa los errores
+
+sintaxis general axios
+```
+```
+sintaxis general fetch y axios dentro de async
+```js
+async function myFunc(){
+    try{
+        const resp = axios.get(url);
+    }    
+   catch(error){
+    console.log(error);
+    
+    } 
+}
+```
