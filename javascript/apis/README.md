@@ -106,3 +106,13 @@ async function myFunc(){
 ```
 ### Console error
 - error en consola en vez de `console.log()` utilizar `console.error`
+- las funciones async devuelven una promesa -> es necesario resolver promise -> se pueden resolver utilizando función sin nombre
+
+### Hacer promises
+```js
+(async () => {
+    const status = await verificarStatus(200);
+    console.log(status);
+})();  // <- Se ejecuta inmediatamente
+```
+- 
