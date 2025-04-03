@@ -8,8 +8,8 @@ const url = 'https://httpstat.us/';
 async function verificarStatus(code){
     const newUrl = url + String(code);
     try {
-        response = await axios.get(newUrl);
-        console.log(response.data);
+        let response = await axios.get(newUrl);
+        //console.log(response.data);
         return response.data;
     }
     catch (error) {
@@ -18,6 +18,9 @@ async function verificarStatus(code){
 }
 
 // correr 
-let status = verificarStatus(200);
+// let status = verificarStatus(200); status es una promesa
+verificarStatus(200)
+    .then(status => console.log(status))
+    .catch(error => console.error(error));
 
-console.log(status);
+//console.log(status);
