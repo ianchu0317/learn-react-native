@@ -79,6 +79,57 @@ Retorna un objeto con los resultados:
 ```
 
 
+### Ejercicio 06  "Generador de Datos de Usuario + Datos de Gatos"
+#### Apis
+- https://catfact.ninja/fact (para datos de gato)
+- https://randomuser.me/api/ (para datos de persona)
+
+#### Tarea
+Obtén un usuario aleatorio y un dato curioso de gatos en paralelo usando Promise.all().
+```js
+{
+  nombre: `${user.name.first} ${user.name.last}`,
+  pais: user.location.country,
+  datoGato: catFact.fact
+}
+```
+Si el dato de gato tiene más de 50 caracteres, añade `"🐱 (Dato largo)"`, sino `"🐱 (Dato corto)"`
+
+#### Salida
+```js
+{
+  nombre: "María García",
+  pais: "Spain",
+  datoGato: "Los gatos pueden rotar sus orejas 180 grados. 🐱 (Dato corto)"
+}
+```
+
+
+### Ejercicio 07
+### Tarea
+
+- Obtén 5 usuarios aleatorios y un dato de gato.
+
+- Filtra solo los usuarios de género female (o male, si prefieres).
+
+- Para cada usuaria filtrada, crea un string:
+
+```js
+`${user.name.first} de ${user.location.country} dice: "${catFact.fact}"`
+```
+- Guarda todos los strings en un array.
+
+### Salida
+```js
+[
+  "Ana de Spain dice: 'Los gatos tienen 5 dedos en las patas delanteras y 4 en las traseras.'",
+  "Luisa de Brazil dice: 'Los gatos tienen 5 dedos en las patas delanteras y 4 en las traseras.'"
+]
+```
+
+
+---
+
 ## Apuntes
 - axios.get devuelve una promise
 - promise.then (callback func) -> resuelve la promise
