@@ -1,7 +1,9 @@
-# learn-react-native
+#  learn-react-native <img width=40 src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/1200px-React-icon.svg.png">
+
 El repositorio contiene apuntes y ejercicios para aprender React Native siendo principiante (nunca toqué javascript xd).
 Estoy convencido de que puedo aprender lo básico en un par de semanas para poder comenzar a hacer proyectos. 
 Está pensado para poder estudiarlo y familiarizarme en un plazo de dos semanas con 1 o 2 horas de estudios diarios. 
+
 
 ## Motivación
 Un poco de motivación para recordarme por qué estoy aprendiendo esto ;)
